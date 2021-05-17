@@ -1,1 +1,5 @@
-console.log("hello world");
+import "regenerator-runtime/runtime";
+
+import App from "./App.js";
+
+const app = new App(document.querySelector("#App"));
